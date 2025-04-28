@@ -1,10 +1,24 @@
 .nav-link {
     font-size: 20px;
     color: rgb(167, 162, 162);
+    margin-left: 50px;
+border: 2px soild transparent;
 }
+.nav-link:hover {
+    border-bottom: 2px solid rgb(38, 90, 22) ;
+    transition: 0.5 ease;
+
+}
+.s  input, .s button{
+    font-size: 20px ;
+    margin-top: 10px ;
+    margin-right: 10px;
+    
+}
+
 body{
     background-color: black;
-}
+} 
 #NAM{
     font-weight: bold;
     font-size: 25PX;
